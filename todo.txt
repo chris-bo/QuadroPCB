@@ -29,7 +29,9 @@ MPU9150:
 		I2C1 direkt angeschlossen (Pullups sind schon auf stm board)
 
 BMP180:
-		evtl I2C2?
+		I2C2
+		Pullups?
+		3V von STM Board
 		
 
 EEPROM:
