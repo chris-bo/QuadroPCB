@@ -1,0 +1,53 @@
+TODO
+
+
+
+Spannungsversorgung:
+
+		STM-Board: 	+5V über USB
+					+5V über Akku, falls kein USB angeschlossen
+						-> 5V Spannungsregler (stepdown?) mit Schalter, falls USB vorhanden	
+						-> trennung über transistor?
+
+		Restliche Boards: +5V oder +3V vom STM-Board
+
+
+Akkumonitor:
+
+		Akkuspannung über Spannungsteiler an ADC-Pin
+		Teilungsfaktor 5? 
+		Zusätzlicher überspannungsschutz?
+
+RC-Receiver:
+
+		Versorgung 5V oder 3V ?
+		Input Capture Pin 5V fähig?
+
+MPU9150:
+		
+		3V von STM Board
+		I2C1 direkt angeschlossen (Pullups sind schon auf stm board)
+
+BMP180:
+		evtl I2C2?
+		
+
+EEPROM:
+
+		Spannung?
+		an I2C1 anschließen
+
+Motorregler:
+		
+		nur masse und signal verbinden
+
+Buzzer:
+
+		1 oder 2? 
+		incl Ansteuertransistor
+
+LED:
+		keine ahnung
+
+
+
