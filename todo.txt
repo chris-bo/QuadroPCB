@@ -5,9 +5,10 @@ TODO
 Spannungsversorgung:
 
 		STM-Board: 	+5V über USB
-					+5V über Akku, falls kein USB angeschlossen
-						-> 5V Spannungsregler (stepdown?) mit Schalter, falls USB vorhanden	
-						-> trennung über transistor?
+				+5V über Akku
+				-> 5V Spannungsregler (stepdown?) an 5V Pin vom STM Board
+					USB-Spannung ist über Dioden getrennt
+				
 
 		Restliche Boards: +5V oder +3V vom STM-Board
 
