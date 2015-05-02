@@ -1,0 +1,164 @@
+Cmp-Mod V01 Created by Cvpcb (2015-04-27 BZR 5626)-product   date = Sa 02 Mai 2015 08:46:12 CEST
+
+BeginCmp
+TimeStamp = /5541EF75;
+Reference = C1;
+ValeurCmp = 100µ 25V;
+IdModule  = Capacitors_SMD:c_elec_6.3x7.7;
+EndCmp
+
+BeginCmp
+TimeStamp = /5541EF3E;
+Reference = C2;
+ValeurCmp = 680µF 10V;
+IdModule  = Capacitors_SMD:c_elec_8x10;
+EndCmp
+
+BeginCmp
+TimeStamp = /5541F140;
+Reference = D1;
+ValeurCmp = MBR360;
+IdModule  = Diodes_SMD:Diode-DO-214BA;
+EndCmp
+
+BeginCmp
+TimeStamp = /55421230;
+Reference = IC1;
+ValeurCmp = AT24CS02-SSHM;
+IdModule  = Sockets_DIP:DIP-8__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5541EE99;
+Reference = L1;
+ValeurCmp = 220µH;
+IdModule  = Choke_SMD:Choke_SMD_PISR_Handsoldering_FASTRON;
+EndCmp
+
+BeginCmp
+TimeStamp = /553FF0BA;
+Reference = P1;
+ValeurCmp = MPU9150;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x08;
+EndCmp
+
+BeginCmp
+TimeStamp = /554227C0;
+Reference = P2;
+ValeurCmp = stm32discovery_left;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x25;
+EndCmp
+
+BeginCmp
+TimeStamp = /55422957;
+Reference = P3;
+ValeurCmp = stm32discovery_right;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x25;
+EndCmp
+
+BeginCmp
+TimeStamp = /55423B7C;
+Reference = P4;
+ValeurCmp = rc_signal;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /55424479;
+Reference = P5;
+ValeurCmp = Motor3;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /554244CD;
+Reference = P6;
+ValeurCmp = Motor4;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /55420D17;
+Reference = P7;
+ValeurCmp = BMP180;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /55424324;
+Reference = P8;
+ValeurCmp = Motor1;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /554243EF;
+Reference = P9;
+ValeurCmp = Motor2;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /5544727A;
+Reference = P10;
+ValeurCmp = AKKU;
+IdModule  = Wire_Connections_Bridges:WireConnection_1-2mmDrill;
+EndCmp
+
+BeginCmp
+TimeStamp = /55421F69;
+Reference = Q1;
+ValeurCmp = Q_NMOS_GSD;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /553FEDF5;
+Reference = R1;
+ValeurCmp = 47k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /553FEF71;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55421588;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5541FFF7;
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55421613;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55420182;
+Reference = SP1;
+ValeurCmp = SPEAKER;
+IdModule  = Buzzers_Beepers:Buzzer_12x9.5RM7.6;
+EndCmp
+
+BeginCmp
+TimeStamp = /5541EC13;
+Reference = U1;
+ValeurCmp = LM2576S-5;
+IdModule  = SMD_Packages:TO-263-5_HandSoldering;
+EndCmp
+
+EndListe
