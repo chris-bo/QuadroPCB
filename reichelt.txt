@@ -1,15 +1,16 @@
-spule:
-http://www.reichelt.de/Power-Induktivitaeten-SMD/L-PISR-220-/3/index.html?ACTION=3&GROUPID=3709&ARTICLE=73072&OFFSET=500&WKID=0&
+
+Neues Design:
 
 step down:
-http://www.reichelt.de/ICs-LM-2000-LM-25576/LM-2576-S5-0/3/index.html?ACTION=3&GROUPID=5466&ARTICLE=109352&SEARCH=LM%202576%20S5%2C0&OFFSET=500&WKID=0&
+http://www.reichelt.de/ICs-LM-2000-LM-25576/LM-2675-M5-0/3/index.html?ACTION=3&GROUPID=5466&ARTICLE=109374&OFFSET=500&WKID=0&
 
-Schottky:
-http://www.reichelt.de/MR-MURS-P600-RGP-Dioden/MBRS-360-SMD/3/index.html?ACTION=3&GROUPID=2990&ARTICLE=41973&SEARCH=mbr%20360&OFFSET=500&WKID=0&
+spule:
+http://www.reichelt.de/Power-Induktivitaeten-SMD/L-PISM-33-/3/index.html?&ACTION=3&LA=2&ARTICLE=73023&GROUPID=3709&artnr=L-PISM+33%C2%B5
 
+cap:
+http://www.reichelt.de/Elkos-SMD-Low-ESR-105-C/SMD-ELKO-100-16/3/index.html?&ACTION=3&LA=2&ARTICLE=31912&GROUPID=4001&artnr=SMD+ELKO+100%2F16
+http://www.reichelt.de/Elkos-SMD-Low-ESR-105-C/VF-220-25-P-F/3/index.html?&ACTION=3&LA=2&ARTICLE=109210&GROUPID=4001&artnr=VF+220%2F25+P-F
+http://www.reichelt.de/Vielschicht-SMD-G0805/X7R-G0805-10N/3/index.html?&ACTION=3&LA=2&ARTICLE=22877&GROUPID=3165&artnr=X7R-G0805+10N
 
-elko:
-http://www.reichelt.de/Elkos-SMD-Low-ESR-105-C/VF-100-25-P-D8/3/index.html?ACTION=3&GROUPID=4001&ARTICLE=109208&OFFSET=500&WKID=0&
-http://www.reichelt.de/Elkos-SMD-Low-ESR-105-C/VF-680-10-P-F/3/index.html?ACTION=3&GROUPID=4001&ARTICLE=109189&OFFSET=500&WKID=0&
-
-
+schottky:
+http://www.reichelt.de/MR-MURS-P600-RGP-Dioden/MBRS-360-SMD/3/index.html?ACTION=3&GROUPID=2990&ARTICLE=41973&SEARCH=MBRS%20360%20SMD&OFFSET=500&WKID=0&

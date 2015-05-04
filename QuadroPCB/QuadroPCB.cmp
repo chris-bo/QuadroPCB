@@ -1,24 +1,31 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-01 BZR 5636)-product   date = Sa 02 Mai 2015 13:37:46 CEST
+Cmp-Mod V01 Created by Cvpcb (2015-05-01 BZR 5636)-product   date = So 03 Mai 2015 15:23:36 CEST
 
 BeginCmp
 TimeStamp = /5541EF75;
 Reference = C1;
-ValeurCmp = 100µ 25V;
-IdModule  = Capacitors_SMD:c_elec_6.3x7.7;
+ValeurCmp = 220µF 25V;
+IdModule  = Capacitors_SMD:c_elec_8x10.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /5541EF3E;
 Reference = C2;
-ValeurCmp = 680µF 10V;
-IdModule  = Capacitors_SMD:c_elec_8x10;
+ValeurCmp = 100µF 10V;
+IdModule  = Capacitors_SMD:c_elec_8x6.7;
+EndCmp
+
+BeginCmp
+TimeStamp = /554623AC;
+Reference = C3;
+ValeurCmp = 10nF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /5541F140;
 Reference = D1;
-ValeurCmp = MBR360;
-IdModule  = Diodes_SMD:Diode-DO-214BA;
+ValeurCmp = MBRS340;
+IdModule  = Diodes_SMD:Diode-DO-214AB_Handsoldering;
 EndCmp
 
 BeginCmp
@@ -31,8 +38,8 @@ EndCmp
 BeginCmp
 TimeStamp = /5541EE99;
 Reference = L1;
-ValeurCmp = 220µH;
-IdModule  = Choke_SMD:Choke_SMD_PISR_Handsoldering_FASTRON;
+ValeurCmp = 33µH 1,4 A;
+IdModule  = Choke_SMD:Choke_SMD_PISN_Handsoldering_FASTRON;
 EndCmp
 
 BeginCmp
@@ -155,10 +162,10 @@ IdModule  = Buzzers_Beepers:Buzzer_12x9.5RM7.6;
 EndCmp
 
 BeginCmp
-TimeStamp = /5541EC13;
+TimeStamp = /55461C96;
 Reference = U1;
-ValeurCmp = LM2576S-5;
-IdModule  = SMD_Packages:TO-263-5_HandSoldering;
+ValeurCmp = LM2675M-5;
+IdModule  = SMD_Packages:SOIC-8-N;
 EndCmp
 
 EndListe
