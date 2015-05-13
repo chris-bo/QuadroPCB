@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-01 BZR 5636)-product   date = So 03 Mai 2015 15:23:36 CEST
+Cmp-Mod V01 Created by Cvpcb (2015-05-05 BZR 5642)-product   date = Mi 06 Mai 2015 21:15:20 CEST
 
 BeginCmp
 TimeStamp = /5541EF75;
@@ -113,8 +113,22 @@ IdModule  = Connect:PINHEAD1-2;
 EndCmp
 
 BeginCmp
+TimeStamp = /554A7609;
+Reference = P11;
+ValeurCmp = MeisterFluglicht;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x05;
+EndCmp
+
+BeginCmp
 TimeStamp = /55421F69;
 Reference = Q1;
+ValeurCmp = Q_NMOS_GSD;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A4AC2;
+Reference = Q2;
 ValeurCmp = Q_NMOS_GSD;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering;
 EndCmp
@@ -155,8 +169,22 @@ IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
+TimeStamp = /554A4AA2;
+Reference = R6;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
 TimeStamp = /55420182;
 Reference = SP1;
+ValeurCmp = SPEAKER;
+IdModule  = Buzzers_Beepers:Buzzer_12x9.5RM7.6;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A4AB4;
+Reference = SP2;
 ValeurCmp = SPEAKER;
 IdModule  = Buzzers_Beepers:Buzzer_12x9.5RM7.6;
 EndCmp
