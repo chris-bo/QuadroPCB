@@ -1,4 +1,4 @@
-update=Mi 06 Mai 2015 19:16:06 CEST
+update=Mo 25 Mai 2015 18:28:43 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -6,26 +6,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[pcbnew]
-version=1
-PageLayoutDescrFile=
-LastNetListRead=
-UseCmpFile=1
-PadDrill=0.6
-PadDrillOvalY=0.6
-PadSizeH=1.5
-PadSizeV=1.5
-PcbTextSizeV=1.5
-PcbTextSizeH=1.5
-PcbTextThickness=0.3
-ModuleTextSizeV=1
-ModuleTextSizeH=1
-ModuleTextSizeThickness=0.15
-SolderMaskClearance=0
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.2
-BoardOutlineThickness=0.09999999999999999
-ModuleOutlineThickness=0.15
 [eeschema]
 version=1
 LibDir=
@@ -62,3 +42,24 @@ LibName29=valves
 LibName30=dc-dc
 LibName31=stm32
 LibName32=sensors
+LibName33=uln2803
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=
+UseCmpFile=1
+PadDrill=0.6
+PadDrillOvalY=0.6
+PadSizeH=1.5
+PadSizeV=1.5
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=1
+ModuleTextSizeH=1
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.09999999999999999
+ModuleOutlineThickness=0.15

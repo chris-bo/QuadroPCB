@@ -1,32 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-05 BZR 5642)-product   date = Mi 06 Mai 2015 21:15:20 CEST
-
-BeginCmp
-TimeStamp = /5541EF75;
-Reference = C1;
-ValeurCmp = 220µF 25V;
-IdModule  = Capacitors_SMD:c_elec_8x10.5;
-EndCmp
-
-BeginCmp
-TimeStamp = /5541EF3E;
-Reference = C2;
-ValeurCmp = 100µF 10V;
-IdModule  = Capacitors_SMD:c_elec_8x6.7;
-EndCmp
-
-BeginCmp
-TimeStamp = /554623AC;
-Reference = C3;
-ValeurCmp = 10nF;
-IdModule  = Capacitors_SMD:C_0805_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /5541F140;
-Reference = D1;
-ValeurCmp = MBRS340;
-IdModule  = Diodes_SMD:Diode-DO-214AB_Handsoldering;
-EndCmp
+Cmp-Mod V01 Created by Cvpcb (2015-05-05 BZR 5642)-product   date = Sa 23 Mai 2015 15:06:51 CEST
 
 BeginCmp
 TimeStamp = /55421230;
@@ -36,10 +8,10 @@ IdModule  = Sockets_DIP:DIP-8__300_ELL;
 EndCmp
 
 BeginCmp
-TimeStamp = /5541EE99;
-Reference = L1;
-ValeurCmp = 33µH 1,4 A;
-IdModule  = Choke_SMD:Choke_SMD_PISN_Handsoldering_FASTRON;
+TimeStamp = /555F9220;
+Reference = JP1;
+ValeurCmp = led_test;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
@@ -113,10 +85,31 @@ IdModule  = Connect:PINHEAD1-2;
 EndCmp
 
 BeginCmp
-TimeStamp = /554A7609;
+TimeStamp = /55608089;
 Reference = P11;
-ValeurCmp = MeisterFluglicht;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x05;
+ValeurCmp = led_power;
+IdModule  = Connect:PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /555F99E8;
+Reference = P12;
+ValeurCmp = step_down;
+IdModule  = Connect:PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /555FE1EE;
+Reference = P13;
+ValeurCmp = leds2;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x08;
+EndCmp
+
+BeginCmp
+TimeStamp = /555F8A02;
+Reference = P14;
+ValeurCmp = leds2;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x08;
 EndCmp
 
 BeginCmp
@@ -190,10 +183,31 @@ IdModule  = Buzzers_Beepers:Buzzer_12x9.5RM7.6;
 EndCmp
 
 BeginCmp
-TimeStamp = /55461C96;
+TimeStamp = /555FE1DB;
 Reference = U1;
-ValeurCmp = LM2675M-5;
-IdModule  = SMD_Packages:SOIC-8-N;
+ValeurCmp = 74HC595;
+IdModule  = Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /555F6808;
+Reference = U2;
+ValeurCmp = 74HC595;
+IdModule  = Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /555FE1E8;
+Reference = U3;
+ValeurCmp = uln2803;
+IdModule  = Housings_SOIC:SOIC-18_7.5x11.6mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /555F89FC;
+Reference = U4;
+ValeurCmp = uln2803;
+IdModule  = Housings_SOIC:SOIC-18_7.5x11.6mm_Pitch1.27mm;
 EndCmp
 
 EndListe
